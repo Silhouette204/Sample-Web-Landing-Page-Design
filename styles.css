@@ -1,0 +1,537 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --superlight: #e6d0c9;
+  --light: #cfa392;
+  --neutral: #3f1c13;
+  --dark: #191418;
+  --superdark: #181922;
+}
+
+.backgroundImage {
+  background-image: url("../img/mainBg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 100px;
+}
+
+header h1 {
+  color: var(--light);
+}
+
+.nav-links {
+  text-decoration: none;
+  color: var(--light);
+}
+
+.nav-links li a {
+  color: var(--superlight);
+  text-decoration: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+  font-weight: 600;
+}
+
+.nav-links li a:hover {
+  color: var(--neutral);
+  transition: 0.3s ease;
+}
+
+.contact {
+  padding: 10px 30px;
+  border-radius: 50px;
+  border: none;
+  background-color: var(--superdark);
+  color: var(--superlight);
+  font-weight: 1000;
+}
+
+.contact:hover {
+  background-color: var(--superlight);
+  color: var(--dark);
+  transition: 0.3s ease;
+}
+
+.main-content {
+  margin: 7% 0 0 20%;
+}
+
+.main-content h1 {
+  margin: 0 0 10px 0;
+  font-size: 75px;
+  color: var(--superlight);
+}
+
+.main-content .second {
+  margin: 0 0 35px 0;
+}
+
+.main-content h3 {
+  margin: 0 0 40px 0;
+  font-size: 25px;
+  color: var(--light);
+}
+
+.Download-App {
+  padding: 15px 40px;
+  border-radius: 50px;
+  border: none;
+  margin-right: 20px;
+  font-weight: 700;
+}
+
+.Download-App:hover {
+  background-color: var(--neutral);
+  color: var(--superlight);
+  transition: ease 0.3s;
+}
+
+.view {
+  padding: 15px 40px;
+  border-radius: 50px;
+  border: none;
+  font-weight: 700;
+}
+
+.view:hover {
+  background-color: var(--neutral);
+  color: var(--superlight);
+  transition: ease 0.3s;
+}
+
+.description {
+  color: var(--superlight);
+  text-align: center;
+  margin: 4%;
+  font-weight: 700;
+}
+
+.checkbox {
+  display: flex;
+  margin-left: 20%;
+}
+
+.checkbox i {
+  color: var(--superlight);
+  display: flex;
+  margin-left: 155px;
+}
+
+.semi-footer {
+  color: var(--superlight);
+  margin: 70px 0 0 370px;
+  font-size: 30px;
+}
+
+.semi-footer i {
+  margin: 0px 0 0 30px;
+}
+
+.banner1 {
+  height: 30vh;
+  width: 100%;
+  background-color: #fff;
+}
+
+.banner-content h1 {
+  font-weight: 800;
+}
+
+.banner-content .mainBannner {
+  color: var(--superdark);
+  font-size: 50px;
+  padding: 5% 0 0 40%;
+}
+
+.secondBanner {
+  margin: 3px 0 0 33%;
+  font-size: 50px;
+}
+
+.thirdBanner {
+  margin: 3px 0 0 36.5%;
+  font-size: 50px;
+}
+
+.about {
+  height: 60vh;
+  width: 100%;
+  background-color: #fff;
+}
+
+.about-profile img {
+  margin: 0 0 0 10%;
+  height: 40vh;
+  width: 30%;
+  clip-path: polygon(38% 0, 98% 0, 75% 100%, 38% 100%);
+  position: absolute;
+}
+
+.about-profile::before {
+  background-color: var(--light);
+  content: "";
+  display: block;
+  height: 38%;
+  position: absolute;
+  width: 30%;
+  margin: 4% 60% 0 16%;
+  clip-path: polygon(18% 0, 85% 0, 61% 100%, 18% 100%);
+}
+.row-about {
+  display: flex;
+}
+
+.about-column {
+  flex-basis: 50%;
+}
+
+.about-container {
+  margin: 10%0 0 50%;
+}
+
+.about-column h3 {
+  margin: 5% 0 3% 0;
+  color: var(--dark);
+  font-size: 20px;
+}
+
+.about-column p {
+  margin-bottom: 3%;
+  color: var(--light);
+  font-weight: 600;
+}
+
+.about-list {
+  margin: 0 0 5% 4%;
+  color-interpolation-filters: va;
+  color: var(--dark);
+}
+
+.seemore {
+  padding: 20px 40px;
+  clip-path: polygon(0 0, 100% 0, 88% 100%, 0 100%);
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: var(--light);
+  color: var(--neutral);
+}
+
+.seemore:hover {
+  background-color: var(--dark);
+  color: var(--superlight);
+  transition: ease 0.3s;
+}
+
+.choseUs {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--dark);
+}
+
+.choseUs-container h1 {
+  color: var(--superlight);
+  padding: 6% 0 0 40%;
+  font-size: 40px;
+}
+
+.choseUSp1 {
+  color: var(--superlight);
+  padding: 1% 0 0 40%;
+  font-size: 15px;
+}
+
+.choseUs img {
+  height: 60vh;
+  width: 40%;
+  margin: 5% 0 0 10%;
+  clip-path: xywh(0 5px 100% 75% round 15% 0);
+  background: #cfa392;
+  position: absolute;
+}
+
+.rowChoseUs {
+  display: flex;
+}
+
+.choseUsColumn {
+  flex-basis: 30%;
+  margin: 8% 0 0 56%;
+}
+
+.firstChoseUs {
+  display: flex;
+}
+
+.secondChoseUs {
+  display: flex;
+}
+
+.firstChoseUs i {
+  color: var(--light);
+  font-size: 30px;
+}
+.firstChoseUs h3 {
+  color: var(--superlight);
+  font-size: 20px;
+  margin: 0 0 3% 3%;
+}
+
+.choseUSp2 {
+  color: var(--light);
+  font-size: 15px;
+  margin-bottom: 10%;
+}
+
+.secondChoseUs i {
+  color: var(--light);
+  font-size: 30px;
+}
+
+.secondChoseUs h3 {
+  color: var(--superlight);
+  font-size: 20px;
+  margin: 0 0 3% 3%;
+}
+
+.choseUSp3 {
+  color: var(--light);
+  font-size: 15px;
+}
+
+.choseUsBtn {
+  margin: 2% 0 0 65%;
+  padding: 1% 3%;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: var(--light);
+  color: var(--superdark);
+}
+
+.choseUsBtn:hover {
+  color: var(--superlight);
+  background-color: var(--neutral);
+  transition: ease 0.2s;
+}
+
+.characterBanner {
+  height: 57vh;
+  width: 100%;
+}
+
+.columnCharac {
+  float: left;
+  width: 32%;
+  padding: 5px;
+  align-items: center;
+}
+
+.rowCharac {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.columnCharac .charac1 {
+  height: 30vh;
+  width: 70%;
+  margin: 10% 0 0 22%;
+  border-radius: 40px;
+}
+
+.columnCharac .charac2 {
+  height: 30vh;
+  width: 70%;
+  margin: 10% 0 0 22%;
+  border-radius: 40px;
+}
+.columnCharac .charac3 {
+  height: 30vh;
+  width: 70%;
+  margin: 10% 0 0 22%;
+  border-radius: 40px;
+}
+
+.columnCharac h1 {
+  margin: 3% 0 0 45%;
+}
+
+.columnCharac p {
+  margin: 3% 0 0 15%;
+}
+
+.semi-about {
+  height: 155vh;
+  width: 100%;
+  background-color: #fff;
+}
+
+.semiprofile1 {
+  height: 35vh;
+  width: 25%;
+  border-radius: 50px;
+  margin: 35px 0 0 410px;
+  position: absolute;
+}
+
+.semiprofile2 {
+  height: 35vh;
+  width: 25%;
+  border-radius: 50px;
+  margin: 500px 0 0 1050px;
+  position: absolute;
+}
+
+.semiprofile3 {
+  height: 35vh;
+  width: 25%;
+  border-radius: 50px;
+  margin: 1000px 0 0 410px;
+  position: absolute;
+}
+
+.semiAboutRow {
+  display: flex;
+}
+
+.semiAboutColumn {
+  flex-basis: 80%;
+}
+
+.semiAboutContent1 {
+  margin: 130px 0 0 1050px;
+}
+
+.semiAboutContent2 {
+  margin: 350px 630px 0 400px;
+}
+
+.semiAboutContent3 {
+  margin: 350px 0 0 1050px;
+}
+
+.semiAboutContainer h1 {
+  margin: 0 0 15px 0;
+  font-weight: 700;
+}
+
+.paragraphBanner {
+  height: 30vh;
+  width: 100%;
+  background-color: #fff;
+}
+
+.paragraphRow {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.paragraphColumn {
+  float: left;
+  width: 32%;
+  padding: 5px;
+  align-items: center;
+}
+
+.paragraphBanner h1 {
+  margin: 50px 0 30px 210px;
+  color: var(--dark);
+}
+
+.paragraphBanner h1 span {
+  color: var(--light);
+}
+
+.paragraphBanner p {
+  margin: 40px 0px 0px 100px;
+  color: var(--superdark);
+  text-align: center;
+}
+
+.joinBanner {
+  height: 30vh;
+  width: 100%;
+  background-color: var(--dark);
+}
+
+.joinBanner h1 {
+  color: var(--superlight);
+  text-align: center;
+  padding: 50px 0 0 0;
+}
+
+.joinBanner p {
+  color: var(--light);
+  text-align: center;
+  margin: 20px 450px 0 450px;
+}
+
+.joinBanner button {
+  margin: 30px 0 0 870px;
+  padding: 15px 40px;
+  border-radius: 50px;
+  border: none;
+  font-weight: 800;
+  background-color: var(--light);
+}
+
+.joinBanner button:hover {
+  background-color: var(--neutral);
+  color: var(--light);
+  transition: ease 0.2s;
+}
+
+.comments {
+  background-color: var(--dark);
+  color: var(--superlight);
+  height: 25vh;
+}
+
+.quoteRow {
+  content: "";
+  display: table;
+  clear: both;
+  margin: 0 0px 0 60px;
+  text-align: center;
+}
+
+.quoteColumn {
+  float: left;
+  width: 32%;
+  padding: 5px;
+  align-items: center;
+}
+
+.quoteColumn i {
+  margin: 40px 0 0 0;
+  font-size: 50px;
+}
+
+.footer {
+  height: 5vh;
+}
+
+.footer p {
+  text-align: center;
+  margin-top: 2%;
+  font-weight: 700;
+  color: var(--light);
+}
